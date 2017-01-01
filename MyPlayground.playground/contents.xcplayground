@@ -7,5 +7,6 @@
         <page name='Collection Types'/>
         <page name='Control Flow'/>
         <page name='Test'/>
+        <page name='swift3.1_基本运算符'/>
     </pages>
 </playground>

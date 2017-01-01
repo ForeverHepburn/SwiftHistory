@@ -41,3 +41,26 @@ let value = 1.25e2
 print(value)
 
 
+let possiableString: String? = "An optional string"
+let forceDstring: String = possiableString!;
+
+let possiableString2: String! = "An optional string"
+let forceDstring2: String = possiableString2!
+if forceDstring2 != nil {
+    print(1)
+}
+
+
+let age = 5
+assert(age >= 0, "error")
+
+print(1)
+
+
+
+
+
+
+
+
+
