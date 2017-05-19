@@ -68,14 +68,3 @@ if let testStr = optionalStr {
 //if let testStr = optionalStr {
 //    greeting = "hello, \(greeting)"
 //}
-
-# 
-
-
-
-
-
-
-
-
-
