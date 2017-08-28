@@ -91,3 +91,39 @@ for obj in nonsSet.sorted() {
 }
 
 
+var strSet1: Set<String> = ["1","2","3"];
+var strSet2: Set<String> = ["1","4","5"];
+var strSet3: Set<String> = ["1","3","6"];
+
+//交集
+let result1 = strSet1.intersection(strSet2).sorted()
+result1
+
+//除交集外的集合
+let result2 = strSet1.symmetricDifference(strSet2).sorted()
+result2
+
+
+//两者集合
+let result3 = strSet1.union(strSet2).sorted()
+result3
+
+//除交集外，set中余下的内容
+let result4 = strSet1.subtracting(strSet2).sorted()
+result4
+
+
+//字典
+var emptyDict = [Int: String]();
+emptyDict
+emptyDict[0] = "A"
+emptyDict[1] = "B"
+
+print(emptyDict)
+
+emptyDict.count
+//print(emptyDict.keys)
+emptyDict.values
+print("-----------------")
+print(emptyDict.updateValue("C", forKey: 0))
+emptyDict
