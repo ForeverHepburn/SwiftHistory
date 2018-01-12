@@ -4,5 +4,8 @@
         <page name='试运行01_20170518'/>
         <page name='试运行02_20170519'/>
         <page name='swift3.1_基础部分'/>
+        <page name='Collection Types'/>
+        <page name='Control Flow'/>
+        <page name='Test'/>
     </pages>
 </playground>

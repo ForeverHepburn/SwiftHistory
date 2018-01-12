@@ -125,5 +125,4 @@ emptyDict.count
 //print(emptyDict.keys)
 emptyDict.values
 print("-----------------")
-print(emptyDict.updateValue("C", forKey: 0))
 emptyDict
