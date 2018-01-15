@@ -185,4 +185,46 @@ class SimpleClass: ExampleProtocol {
 }
 
 
+func greet (_ person: String, _ day: String) -> String {
+    return "hello \(person),today is \(day)."
+}
+//greet(person: "Bob", day: "Tuesday")
+
+greet("John", "Sunday")
+
+func meanFunc(numbers: Int...) -> Int {
+    var sum = 0
+    var count: Int = 0
+    
+    for num in numbers {
+        sum += num
+        count += 1
+    }
+    return sum/count
+}
+
+print(meanFunc(numbers: 1,3))
+
+
+func returnFifteen() -> Int {
+    var y = 10
+    func add() {
+        y += 5
+    }
+    add()
+    return y
+}
+
+print(returnFifteen())
+
+
+func makeIncrementer() -> ((Int) -> Int) {
+    func addOne(number: Int) -> Int {
+        return 1 + number
+    }
+    return addOne
+}
+
+var increment = makeIncrementer()
+increment(7)
 
