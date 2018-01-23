@@ -36,3 +36,11 @@ for (index, value) in shoppingList.enumerated() {
     print("item \(index): \(value)")
 }
 
+
+var letters = Set<Character>()
+letters.insert("a")
+letters
+letters = []
+
+var favoriteGenres: Set<String> = ["rock","classical","hip hop"]
+
