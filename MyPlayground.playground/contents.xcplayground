@@ -13,5 +13,6 @@
         <page name='swift4.3_字符串和字符'/>
         <page name='swift4.4_集合类型'/>
         <page name='swift4.5_控制流'/>
+        <page name='swift4.6_函数'/>
     </pages>
 </playground>
