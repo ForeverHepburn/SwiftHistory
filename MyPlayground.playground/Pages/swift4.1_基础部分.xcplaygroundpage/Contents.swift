@@ -24,12 +24,9 @@ boolValue = false
 
 let i: Int? = 1
 if let value = i {
-    print(1111)
+    print(value)
 }
 
 
 let httpError = (404, "Not Found")
 print(httpError)
-httpError.0
-httpError.1
-
