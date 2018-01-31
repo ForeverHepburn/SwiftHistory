@@ -14,5 +14,11 @@
         <page name='swift4.4_集合类型'/>
         <page name='swift4.5_控制流'/>
         <page name='swift4.6_函数'/>
+        <page name='swift4.7_闭包'/>
+        <page name='swift4.8_枚举'/>
+        <page name='swift4.9_类和结构体'/>
+        <page name='swift4.10_属性'/>
+        <page name='swift4.11_方法'/>
+        <page name='swift4.13_继承'/>
     </pages>
 </playground>
