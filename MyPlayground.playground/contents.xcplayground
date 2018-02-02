@@ -20,5 +20,10 @@
         <page name='swift4.10_属性'/>
         <page name='swift4.11_方法'/>
         <page name='swift4.13_继承'/>
+        <page name='swift4.14_构造过程'/>
+        <page name='swift4.15_析构过程'/>
+        <page name='swift4.16_自动引用计数'/>
+        <page name='swift4.17_可选链式调用'/>
+        <page name='swift4.18_错误处理'/>
     </pages>
 </playground>
