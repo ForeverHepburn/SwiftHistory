@@ -25,5 +25,10 @@
         <page name='swift4.16_自动引用计数'/>
         <page name='swift4.17_可选链式调用'/>
         <page name='swift4.18_错误处理'/>
+        <page name='swift4.19_类型转换'/>
+        <page name='swift4.20_嵌套类型'/>
+        <page name='swfit4.21_扩展'/>
+        <page name='swift4.22_协议'/>
+        <page name='swfit4.23_泛型'/>
     </pages>
 </playground>
