@@ -30,5 +30,8 @@
         <page name='swfit4.21_扩展'/>
         <page name='swift4.22_协议'/>
         <page name='swfit4.23_泛型'/>
+        <page name='swift4.24_内存安全'/>
+        <page name='swift4.25_访问控制'/>
+        <page name='swift4.26_高级运算符'/>
     </pages>
 </playground>
